@@ -2,22 +2,23 @@
   "category": "IT Hardware",
   "overall_risk_level": "High",
   "key_risks": [
-    "High single-source dependency with TechSource Inc. ($4.2M spend).",
-    "Critical contract expiry for GlobalComp Solutions in 3 months.",
-    "Sub-optimal delivery performance from GlobalComp Solutions (85% OTD).",
-    "Upcoming contract expiry for TechSource Inc. in 6 months."
+    "High Concentration Risk: TechSource Inc. is a single source for $4.2M annual spend, creating critical dependency.",
+    "Imminent Contract Expiry: GlobalComp Solutions' contract expires in 3 months, posing immediate continuity risk. TechSource Inc. expires in 6 months.",
+    "Subpar Delivery Performance: GlobalComp Solutions' 85% on-time delivery is below target, impacting operational efficiency.",
+    "Significant Spend Concentration: Two suppliers (TechSource, GlobalComp) account for over 75% of the category spend, amplifying disruption impact."
   ],
   "negotiation_levers": [
-    "Leverage GlobalComp Solutions' 85% on-time delivery for improved terms.",
-    "Utilize upcoming contract renewals (TechSource, GlobalComp) to drive competitive pricing.",
-    "Explore alternative suppliers for TechSource Inc.'s scope to mitigate single-source risk.",
-    "Consolidate volume with high-performing suppliers (e.g., NextGen Systems) where feasible."
+    "Volume Commitment: Leverage total category spend ($9.1M) for improved pricing and service levels.",
+    "Performance Improvement: Demand specific on-time delivery improvements from GlobalComp Solutions as a condition for renewal.",
+    "Competitive Sourcing: Initiate RFPs for GlobalComp Solutions and TechSource Inc. to introduce competition and identify alternatives.",
+    "Longer Contract Terms: Offer extended contract durations in exchange for price stability or enhanced service levels."
   ],
   "recommended_actions_next_90_days": [
-    "Launch immediate contract renegotiation with GlobalComp Solutions, targeting improved delivery performance and favorable terms (due in 30 days).",
-    "Initiate a market assessment for TechSource Inc.'s services to identify alternative suppliers and develop a multi-source strategy (due in 60 days).",
-    "Begin proactive renewal discussions with TechSource Inc. to leverage the 6-month window for better pricing and risk mitigation (due in 45 days).",
-    "Establish a formal supplier performance review for GlobalComp Solutions to track and improve on-time delivery (initial review in 30 days)."
+    "Initiate RFP for GlobalComp Solutions: Immediately launch an RFP to address contract expiry (3 months) and poor delivery performance, exploring alternative suppliers.",
+    "Develop Multi-Sourcing Strategy for TechSource Inc.: Begin identifying and qualifying at least two alternative suppliers to mitigate single-source dependency and prepare for contract renegotiation (6 months).",
+    "Engage TechSource Inc. for Early Renegotiation: Proactively open discussions to secure favorable terms and address single-source risk before the 6-month expiry.",
+    "Implement Performance Improvement Plan with GlobalComp Solutions: Define and track specific on-time delivery improvement targets with GlobalComp, regardless of renewal outcome.",
+    "Review IT Hardware Sourcing Strategy: Conduct a comprehensive review to identify opportunities for further diversification and risk reduction across the category."
   ],
   "confidence_score": 0.9
 }

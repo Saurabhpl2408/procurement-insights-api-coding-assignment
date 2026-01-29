@@ -20,7 +20,7 @@ class LLMService:
                 'temperature': 0.2,
                 'top_p': 0.95,
                 'top_k': 40,
-                'max_output_tokens': 2048,
+                'max_output_tokens': 4096,
             }
         )
     
@@ -70,7 +70,6 @@ SCORING GUIDELINES:
 - key_risks: Must identify 3-5 specific risks based on data (concentration, timing, performance, geographic)
 - negotiation_levers: Must identify 3-5 specific leverage points (competitive alternatives, volume, contract timing, performance gaps)
 - recommended_actions_next_90_days: Must provide 3-5 concrete, time-bound actions prioritized by urgency
-- confidence_score: Base on data completeness and clarity (0.8-0.95 for complete data, lower if ambiguous)
 
 Calculate confidence_score based on these factors:
 - Start with base 0.85 (we have complete, structured data)
@@ -83,9 +82,10 @@ Typical ranges:
 - 0.90-0.95: Complete data, 3+ suppliers, clear patterns
 - 0.80-0.89: Good data quality, some minor gaps or ambiguity
 - 0.70-0.79: Acceptable data, but requires some assumptions
-- Below 0.70: Significant data quality issues or high uncertainty
 
 For this specific dataset with 3 suppliers and complete fields, confidence should be 0.85-0.92.
+
+IMPORTANT: Ensure your JSON is complete and properly closed. Do not truncate the response.
 
 Respond with ONLY the JSON object, no other text."""
 
@@ -103,6 +103,13 @@ Respond with ONLY the JSON object, no other text."""
             response_text = response.text.strip()
             
             print(f"Received response from LLM: {response_text[:200]}...")
+            
+            if not response_text.endswith('}'):
+                print("WARNING: Response appears truncated, attempting to fix...")
+                open_braces = response_text.count('{')
+                close_braces = response_text.count('}')
+                if open_braces > close_braces:
+                    response_text += '}' * (open_braces - close_braces)
             
             response_text = self._clean_json_response(response_text)
             
