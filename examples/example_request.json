@@ -1,0 +1,29 @@
+{
+  "category": "IT Hardware",
+  "suppliers": [
+    {
+      "supplier_name": "TechSource Inc.",
+      "annual_spend_usd": 4200000,
+      "on_time_delivery_pct": 92,
+      "contract_expiry_months": 6,
+      "single_source_dependency": true,
+      "region": "North America"
+    },
+    {
+      "supplier_name": "GlobalComp Solutions",
+      "annual_spend_usd": 3100000,
+      "on_time_delivery_pct": 85,
+      "contract_expiry_months": 3,
+      "single_source_dependency": false,
+      "region": "Asia"
+    },
+    {
+      "supplier_name": "NextGen Systems",
+      "annual_spend_usd": 1800000,
+      "on_time_delivery_pct": 97,
+      "contract_expiry_months": 12,
+      "single_source_dependency": false,
+      "region": "Europe"
+    }
+  ]
+}

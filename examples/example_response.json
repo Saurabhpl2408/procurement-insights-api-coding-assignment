@@ -1,0 +1,23 @@
+{
+  "category": "IT Hardware",
+  "overall_risk_level": "High",
+  "key_risks": [
+    "High single-source dependency with TechSource Inc. ($4.2M spend).",
+    "Critical contract expiry for GlobalComp Solutions in 3 months.",
+    "Sub-optimal delivery performance from GlobalComp Solutions (85% OTD).",
+    "Upcoming contract expiry for TechSource Inc. in 6 months."
+  ],
+  "negotiation_levers": [
+    "Leverage GlobalComp Solutions' 85% on-time delivery for improved terms.",
+    "Utilize upcoming contract renewals (TechSource, GlobalComp) to drive competitive pricing.",
+    "Explore alternative suppliers for TechSource Inc.'s scope to mitigate single-source risk.",
+    "Consolidate volume with high-performing suppliers (e.g., NextGen Systems) where feasible."
+  ],
+  "recommended_actions_next_90_days": [
+    "Launch immediate contract renegotiation with GlobalComp Solutions, targeting improved delivery performance and favorable terms (due in 30 days).",
+    "Initiate a market assessment for TechSource Inc.'s services to identify alternative suppliers and develop a multi-source strategy (due in 60 days).",
+    "Begin proactive renewal discussions with TechSource Inc. to leverage the 6-month window for better pricing and risk mitigation (due in 45 days).",
+    "Establish a formal supplier performance review for GlobalComp Solutions to track and improve on-time delivery (initial review in 30 days)."
+  ],
+  "confidence_score": 0.9
+}
