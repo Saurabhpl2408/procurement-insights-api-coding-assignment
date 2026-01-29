@@ -133,26 +133,6 @@ else:
 
 ---
 
-
-## Production Use
-
-In a real system, confidence scores help with:
-
-**For Executives:**
-- Know when to trust recommendations vs. seek more data
-- Prioritize high-confidence decisions first
-
-**For Automation:**
-- Confidence > 0.90: Auto-approve routine actions
-- Confidence 0.80-0.90: Standard review
-- Confidence < 0.80: Flag for senior review
-
-**For Quality:**
-- Track confidence trends over time
-- Low scores indicate where to improve data collection
-
----
-
 ## Key Takeaway
 
 **Confidence = 0.85 means:**
